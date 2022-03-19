@@ -1,0 +1,104 @@
+.investors {
+  background-color: #312E2E;
+  color: white;
+}
+
+.investors-title {
+  font-size: 55px;
+  width: 70%;
+  margin-inline: auto;
+  padding-top: 50px;
+}
+
+.investors-section {
+  height: 90vh;
+  text-align: center;
+  width: min(91%, 60rem);
+  margin-inline: auto;
+  position: relative;
+  
+}
+
+.investors-text1 {
+  margin-top: 160px;
+}
+
+.investors-text2 {
+  width: 30%;
+  margin-inline: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.man1 {
+  position: absolute;
+  top: 190px;
+  right: 420px;
+}
+
+.woman1 {
+  position: absolute;
+  left: 40px;
+}
+
+.girl1 {
+  position: absolute;
+  right: 40px;
+}
+
+.woman2 {
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+}
+
+.woman3 {
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+}
+
+@media screen and (min-width: 608px) and (max-width: 768px) {
+  .man1 {
+    right: 300px;
+  }
+
+  .investors-section {
+    height: 105vh;
+  }
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .investors-title {
+    font-size: 35px;
+  }
+
+  .investors-text1 {
+    margin-top: 130px;
+  }
+
+  .man1 {
+    right: 130px;
+    top: 140px;
+  }
+
+  .investors-section {
+    height: 100vh;
+  }
+
+  .investors-text2 {
+    width: 45%;
+  }
+
+  .woman1 {
+    top: 190px;
+    left: 40px;
+  }
+  
+  .girl1 {
+    top: 190px;
+    right: 40px;
+  }
+}
+

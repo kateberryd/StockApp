@@ -1,0 +1,380 @@
+.dash {
+  background-color: black;
+  color: #fff;
+  height: 150vh;
+  padding: 30px;
+}
+
+.dash-second {
+  display: flex;
+  justify-content: space-between; 
+  width: 40%;
+}
+
+
+
+.dash-text {
+  border-bottom: 4px solid white;
+}
+
+.dash-title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.bell-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.searchbar {
+  display: flex;
+}
+
+.searchbar input {
+  border: none;
+  color: white;
+  background-color: #312E2E;
+  height: 26px;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+  padding-left: 10px;
+}
+
+.search-icon {
+  display: grid;
+  place-content: center;
+  padding-left: 6px;
+  background-color: #312E2E;
+  height: 26px;
+  padding-right: 6px;
+  border-left: 1px solid #ebebeb;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.dash-user {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.dash-user h3 {
+  padding-left: 10px;
+}
+
+.user-img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.dash-2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.dash-header-2 {
+  display: flex;
+}
+
+.dropbtn {
+  background-color: #000;
+  color: white;
+  padding: 5px;
+  border: none;
+  border: 1px white solid;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.profit-loss-split {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #312E2E;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd
+}
+
+.show {
+  display:block;
+}
+
+.split-button .profit {
+  border: none;
+  padding: 8px 45px;
+  background-color: #312E2E;
+  color: #fff;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 1px solid #312E2E;
+}
+
+.split-button .loss {
+  border: none;
+  padding: 8px 45px;
+  background-color: black;
+  color: #fff;
+  border: 1px solid #312E2E;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.table-linegraph {
+  display: flex;
+  gap: 28px;
+  margin-top: 20px;
+}
+
+.table-section {
+  width: 60%;
+  height: 47vh;
+  background-color: #312E2E;
+  border-radius: 7px;
+  padding: 20px;
+}
+
+.stock-overview {
+  padding-bottom: 10px;
+}
+
+.linegraph-section {
+  width: 40%;
+  height: 47vh;
+  background-color: #312E2E;
+  border-radius: 7px;
+}
+
+.stocks {
+  display: flex;
+  margin-top: 28px;
+  gap: 28px;
+}
+
+.stock-profits {
+  width: 50%;
+  height: 28vh;
+  background-color: #312E2E;
+  border-radius: 7px;
+}
+
+.gross-profit {
+  width: 25%;
+  height: 28vh;
+  background-color: #312E2E;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.gross-profit h4 {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.gross-profit h1 {
+  font-size: 2rem;
+  padding-bottom: 30px;
+}
+
+.gross-profit p {
+  color: green;
+  padding-top: 15px;
+}
+
+.profit-icon {
+  color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.remark {
+  width: 30%;
+  height: 28vh;
+  background-color: #312E2E;
+  border-radius: 7px;
+}
+
+.remark-img {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin-inline: auto;
+  margin-bottom: 20px;
+}
+
+.remark p {
+  width: 80%;
+  margin-inline: auto;
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .table-linegraph {
+    display: block;
+  }
+
+  .stocks {
+    display: block;
+  }
+
+  .table-section {
+    width: 100%;
+    height: 55vh;
+    margin-bottom: 20px;
+  }
+
+  .linegraph-section {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .stock-profits {
+    width: 100%;
+    height: 35vh;
+  }
+
+  .remark {
+    width: 100%;
+    height: 35vh;
+  }
+
+  .gross-profit {
+    width: 100%;
+    height: 35vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .dash {
+    height: 270vh;
+  }
+
+  .dash-2 {
+    display: block;
+  }
+
+  .split-button .profit {
+    padding: 8px 30px;
+  }
+
+  /* .split-button {
+    margin-right: 20px; 
+  } */
+  
+  .split-button .loss {
+    padding: 8px 30px;
+  }
+
+  .profit-loss-split {
+    justify-content: space-between;
+  }
+
+  .dash-header {
+    display: block;
+  }
+
+  .dash-header-2 {
+    margin-bottom: 20px;
+  }
+
+  .dash-second {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .dash-second {
+    width: 100%;
+  }
+
+  .dash-header {
+    width: 100%;
+  }
+
+  .table-section {
+    height: 55vh;
+  }
+
+  .linegraph-section {
+    height: 55vh;
+    width: 36%;
+  }
+
+  .stock-profits {
+    height: 50vh;
+  }
+
+  .remark {
+    height: 50vh;
+  }
+
+  .gross-profit {
+    height: 50vh;
+  }
+
+  .dash-2 {
+    margin-top: 20px;
+    display: block;
+  }
+
+  .dash-header-2 {
+    margin-bottom: 20px;
+  }
+
+  .gross-profit {
+    margin-inline: auto;
+  }
+}
+
+@media screen and (min-width: 950px) and (max-width: 2000px) {
+  .dash-header {
+    display: flex;
+  }
+
+  .dash-title {
+    width: 50%;
+  }
+
+  .dash-second {
+    margin-left: 200px;
+  }
+
+  .profit-loss-split {
+    width: 60%;
+  }
+
+
+}

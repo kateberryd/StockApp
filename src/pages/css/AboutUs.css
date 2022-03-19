@@ -1,0 +1,82 @@
+.whatwedo {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.whatwedo-title {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  padding-top: 50px;
+}
+
+.whatwedo-section {
+  display: flex;
+  flex-direction: column;
+  width: min(94%, 70.5rem);
+  margin-inline: auto;
+}
+
+.whatwedo-text {
+  max-width: 30rem;
+  margin-inline: auto;
+}
+
+.whatwedo-text span {
+  color: #7339d1;
+}
+
+.whatwedo-text h1 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.whatwedo-text p {
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.whatwedo-img {
+  margin-top: 20px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .whatwedo-title {
+    font-size: 55px;
+  }
+
+  .whatwedo-section {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .whatwedo-text {
+    text-align: left;
+  }
+
+  .whatwedo-text h1 {
+    font-size: 40px;
+  }
+  
+  .whatwedo-text p {
+    font-size: 0.9rem;
+    width: 90%;
+    line-height: 26px;
+  }
+
+  .whatwedo-text {
+    max-width: 38%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .whatwedo-text h1 {
+    font-size: 50px;
+  }
+
+  .whatwedo-text {
+    margin-top: 30px;
+  }
+}
